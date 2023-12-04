@@ -1,0 +1,696 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat:wght@200;500&family=Oswald&family=PT+Serif&family=Prompt:wght@300&family=Raleway:ital,wght@0,100;0,200;0,300;0,500;1,100&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Grand+Hotel&family=Montserrat:wght@200;500&family=Oswald&family=PT+Serif&family=Prompt:wght@300&family=Raleway:ital,wght@0,100;0,200;0,300;0,500;1,100&family=Sacramento&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    justify-content: space-between;
+}
+
+.txt-cen {
+    text-align: center;
+}
+
+.ali {
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col-30 {
+    width: 100%;
+}
+
+.col-40 {
+    width: 100%;
+}
+
+.col-20 {
+    width: 100%;
+}
+
+.col-45 {
+    width: 100%;
+}
+
+.sec-1 {
+    background-position: center;
+    /* width: 50%; */
+    background-image: url(Icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(54, 65, 65);
+    /* height: 800px; */
+}
+
+.bg-img {
+    width: 50%;
+    /* padding: 100px 0; */
+}
+
+.header ul li {
+    padding: 30px 0 0 40px;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 61px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.header a:hover {
+    color: darkturquoise;
+    background-color: rgb(54, 65, 65);
+    border: solid white 1px;
+    border-radius: 8px;
+}
+
+.logo i {
+    padding: 40px 0 0 20px;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.logo h2 {
+    padding: 40px 0 0 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.main-1 h1 {
+    padding: 50px 0 0 0;
+    font-size: 140px;
+    letter-spacing: 6px;
+    /* line-height: ; */
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Grand Hotel";
+}
+
+.main-img img {
+    padding: 100px 0;
+    margin: 0 0 0 100px;
+    width: 100%;
+}
+
+.main-1 h1:hover {
+    color: darkturquoise;
+    zoom: 90%;
+}
+
+.main-1 h3 {
+    padding: 50px 0 30px 0;
+    font-size: 33px;
+    letter-spacing: 2px;
+    line-height: 8px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    /* text-align: center; */
+}
+
+.main-1 p {
+    padding: 0 0 30px 0;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.main-1 button {
+    background-color: darkturquoise;
+    border-radius: 10px;
+    padding: 8px 40px;
+    border: none;
+}
+
+.main-1 button a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgb(54, 65, 65);
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.sec-2 {
+    background-position: center;
+    background-image: url(png-2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: darkturquoise;
+    /* height: 800px; */
+}
+
+.main-2 h2 {
+    align-items: center;
+    width: 30%;
+    padding: 100px 0 50px 0;
+    font-size: 125px;
+    letter-spacing: 5px;
+    line-height: 115px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Grand Hotel";
+}
+
+.main-2 button a {
+    text-decoration: none;
+    font-size: 33px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.main-bg-2 {
+    padding: 100px 0;
+}
+
+.main-2 button {
+    margin: 40px 0 100px 0;
+    border-radius: 10px;
+    padding: 8px 40px;
+    border: none;
+    background-color: rgb(54, 65, 65);
+}
+
+.main-two p {
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 39px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: flex;
+}
+
+.main-two img {
+    padding: 100px 0 20px 0;
+    width: 80%;
+}
+
+.sec-3 {
+    background-position: center;
+    background-image: url(png-3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(54, 65, 65);
+    /* height: 800px; */
+}
+
+.main-3 {
+    padding: 100px 0 0 0;
+}
+
+.main-3 p {
+    padding: 30px 0 0 0;
+    font-size: 23px;
+    letter-spacing: 1px;
+    line-height: 41px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.main-three h2 {
+    width: 80%;
+    padding: 100px 0 0 0;
+    font-size: 150px;
+    letter-spacing: 5px;
+    line-height: 113px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Grand Hotel";
+    text-align: right;
+}
+
+.main-three button a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgb(54, 65, 65);
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.main-three button {
+    margin: 100px 0 0 0;
+    background-color: darkturquoise;
+    align-items: center;
+    border-radius: 10px;
+    padding: 8px 40px;
+    border: none;
+}
+
+.sec-4 {
+    background-position: center;
+    background-image: url(png-4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(54, 65, 65);
+    /* height: 800px; */
+}
+
+.main-4 {
+    padding: 100px 0;
+}
+
+.main-4 h2 {
+    padding: 100px 0 0 0;
+    font-size: 150px;
+    letter-spacing: 5px;
+    line-height: 125px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Grand Hotel";
+    text-align: left;
+}
+
+.main-4 button a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgb(54, 65, 65);
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.main-4 button {
+    margin: 100px 0 0 0;
+    background-color: darkturquoise;
+    align-items: center;
+    border-radius: 10px;
+    padding: 8px 40px;
+    border: none;
+}
+
+.main-four p {
+    padding: 30px 0 0 0;
+    font-size: 23px;
+    letter-spacing: 1px;
+    line-height: 41px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.sec-5 {
+    background-position: center;
+    background-image: url(png-5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(54, 65, 65);
+    height: 800px;
+}
+
+.main-5 h2 {
+    padding: 100px 0 0 0;
+    font-size: 131px;
+    line-height: 41px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: "Grand Hotel";
+    text-align: center;
+}
+
+.main-5 img {
+    width: 50%;
+    margin: 50px 0 0 0;
+}
+
+.main-5 button a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgb(54, 65, 65);
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.main-5 button {
+    margin: 20px 0 0 0;
+    background-color: darkturquoise;
+    align-items: center;
+    border-radius: 10px;
+    padding: 8px 40px;
+    border: none;
+}
+
+.sec-6 {
+    background-position: center;
+    background-color: rgb(54, 65, 65);
+    /* height: 800px; */
+}
+
+.head-1 h2 {
+    padding: 10px 0 0 0;
+    display: block;
+    font-size: 88px;
+    line-height: 28px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: "Grand Hotel";
+    text-align: center;
+}
+
+.main-6 img {
+    margin: 100px 0 0 0;
+}
+
+.main-6 h3 {
+    padding: 50px 0;
+    font-size: 50px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Grand Hotel";
+    text-align: center;
+}
+
+.main-6 p {
+    padding: 0 0 30px 0;
+    width: 100%;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.main-six h3 {
+    font-size: 50px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Grand Hotel";
+    text-align: center;
+}
+
+.main-six p {
+    padding: 0 0 30px 0;
+    width: 100%;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.sec-7 {
+    background-position: center;
+    background-image: url(png-7.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: darkturquoise;
+    /* height: 800px; */
+}
+
+.main-7 h1 {
+    padding: 100px 0 0 0;
+    font-size: 98px;
+    letter-spacing: 4px;
+    line-height: 31px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Grand Hotel";
+    text-align: center;
+}
+
+.main-7 h2 {
+    padding: 100px 0 0 0;
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.main-7 h3 {
+    padding: 0 0 50px 0;
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.sec-8 {
+    background-position: center;
+    background-color: rgb(54, 65, 65);
+    /* height: 800px; */
+}
+
+.main-text-8 h2 {
+    padding: 100px 0 50px 0;
+    font-size: 88px;
+    letter-spacing: 4px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Grand Hotel";
+    text-align: center;
+}
+
+.main-sec-8 button a {
+    text-decoration: none;
+    font-size: 33px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.main-sec-8 button {
+    margin: 50px 0 0 0;
+    background-color: darkturquoise;
+    align-items: center;
+    border-radius: 10px;
+    padding: 8px 40px;
+    border: none;
+}
+
+.main-sec-8 p {
+    padding: 50px 0 100px 0;
+    /* width: 70%; */
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.main-sec-8 {
+    text-align: center;
+}
+
+.sec-9 {
+    background-position: center;
+    background-color: darkturquoise;
+    /* height: 800px; */
+}
+
+.main-9 {
+    padding: 100px 0;
+}
+
+.main-9 i {
+    color: #fefefe;
+    font-size: 50px
+}
+
+.main-9 h2 {
+    color: #fefefe;
+    font-size: 50px;
+}
+
+.main-nine h3 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.main-9-one h4 {
+    font-size: 33px;
+    letter-spacing: 1px;
+    line-height: 61px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.main-9-one h5 {
+    padding: 0 0 0 0;
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.footer ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 61px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.footer ul li {
+    padding: 0 30px 0 0;
+    display: inline-block;
+    list-style-type: none;
+    /* color: #fefefe; */
+}
+
+.footer-1 i {
+    color: #fefefe;
+    font-size: 30px;
+    padding: 0 40px 0 0;
+    align-items: flex-end;
+}
+
+@media(min-width:568px) {
+    .container {
+        width: 520px;
+    }
+
+    .col-30 {
+        width: 30%;
+    }
+
+    .col-40 {
+        width: 40%;
+    }
+
+    .col-20 {
+        width: 20%;
+    }
+
+    .col-45 {
+        width: 45%;
+    }
+}
+
+@media(min-width:776px) {
+    .container {
+        width: 720px;
+    }
+
+    .col-30 {
+        width: 30%;
+    }
+
+    .col-40 {
+        width: 40%;
+    }
+
+    .col-20 {
+        width: 20%;
+    }
+
+    .col-45 {
+        width: 45%;
+    }
+}
+
+@media(min-width:992px) {
+    .container {
+        width: 920px;
+    }
+
+    .col-30 {
+        width: 30%;
+    }
+
+    .col-40 {
+        width: 40%;
+    }
+
+    .col-20 {
+        width: 20%;
+    }
+
+    .col-45 {
+        width: 45%;
+    }
+}
+
+@media(min-width:1200px) {
+    .container {
+        width: 1150px;
+    }
+
+    .col-30 {
+        width: 30%;
+    }
+
+    .col-40 {
+        width: 40%;
+    }
+
+    .col-20 {
+        width: 20%;
+    }
+
+    .col-45 {
+        width: 45%;
+    }
+}
+
+@media(min-width:1400px) {
+    .container {
+        width: 1350px;
+    }
+
+    .col-30 {
+        width: 30%;
+    }
+
+    .col-40 {
+        width: 40%;
+    }
+
+    .col-20 {
+        width: 20%;
+    }
+
+    .col-45 {
+        width: 45%;
+    }
+}
